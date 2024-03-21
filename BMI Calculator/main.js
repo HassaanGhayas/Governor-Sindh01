@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 // Questions
 const questions = [
@@ -7,6 +8,6 @@ const questions = [
 const calculator = (weight, height) => weight / (height * height);
 const app = async () => {
     const { weight, height } = await inquirer.prompt(questions);
-    console.log(`Your BMI is ${calculator(weight, weight).toFixed(4)}`);
+    console.log(`Your BMI is ${calculator(height, weight)}`);
 };
 app();
