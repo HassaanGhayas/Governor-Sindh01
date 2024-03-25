@@ -1,0 +1,17 @@
+{
+  "name": "6232number-guessing-game",
+  "version": "1.0.0",
+  "description": "Simple Number Guessing Game in Node.js",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "shebang-command": "^2.0.0"
+  }
+}

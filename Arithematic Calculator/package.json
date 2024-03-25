@@ -1,14 +1,13 @@
 {
   "name": "nodecm23-calculator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "Arithematic Calculator",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": {
-    "nodecm23": "main.js"},
+  "bin": "./main.js",
   "keywords": [],
   "author": "",
   "license": "ISC"
