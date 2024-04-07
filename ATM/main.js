@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 let passcode = 42101;
 let accountbalance = 20000;
